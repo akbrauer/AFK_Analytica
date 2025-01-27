@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena Nav</title>
+    <style>
+        body {
+            background-color: #131211;
+            margin: 0px 0px;
+            text-align: center;
+        }
+
+        img {
+            width: 15vw;
+        }
+
+        button {
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: contain;
+            width: 23.25vw;
+            height: 24.86vw;
+            margin: 0 0.25vw;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+            border-radius: 15px;
+        }
+
+        button:active {
+          transform: translateY(0.25vw);
+        }
+
+        .green:active {
+            box-shadow: 0 0.3vw #0b2817;
+        }
+
+        .blue:active {
+            box-shadow: 0 0.3vw #183157;
+        }
+
+        .purp:active {
+            box-shadow: 0 0.3vw #292149;
+        }
+
+        .red:active {
+            box-shadow: 0 0.3vw #3f1c1c;
+        }
+
+        .green {
+            background-color: #0b2817;
+            box-shadow: 0 0.55vw #0b2817;
+            margin-left: 0px;
+        }
+
+        .blue {
+            background-color: #183157;
+            box-shadow: 0 0.55vw #183157;
+        }
+
+        .purp {
+            background-color: #292149;
+            box-shadow: 0 0.55vw #292149;
+        }
+
+        .red {
+            background-color: #3f1c1c;
+            box-shadow: 0 0.55vw #3f1c1c;
+            margin-right: 0px;
+        }
+
+        .row {
+            margin: 1vw 0px;
+        }
+
+        #beginners {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Beginners.png");
+        } #tierlist {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Tierlist.png");
+        } #priority {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Priority.png");
+        } #benchmarks {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Benchmarks.png");
+        } #signature {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Signature.png");
+        } #furniture {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Furniture.png");
+        } #engraving {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Engraving.png");
+        } #collections {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Collections.png");
+        } #wrizz {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Wrizz.png");
+        } #twisted {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Twisted.png");
+        } #cursed {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Cursed.png");
+        } #nightmare {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Nightmare.png");
+        } #elder {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/ElderTree.png");
+        } #beasts {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Beasts.png");
+        } #economy {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Economy.png");
+        } #stats {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Stats.png");
+        } #codes {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Codes.png");
+        } #creators {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/nav/Creators.png");
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/logos/afkarena.png" alt="AFK Arena">
+    </div>
+    <div id="arena-nav">
+        <div class="row">
+            <a href="https://www.afkanalytica.com/afk-arena/main-guides/beginners-guide"><button id="beginners" class="green"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/main-guides/arena-tier-list"><button id="tierlist" class="blue"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/main-guides/priorities"><button id="priority" class="purp"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/main-guides/benchmarks"><button id="benchmarks" class="red"></button></a>
+        </div>
+        <div class="row">
+            <a href="https://www.afkanalytica.com/afk-arena/hero-upgrades/signature"><button id="signature" class="green"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/hero-upgrades/furniture"><button id="furniture" class="blue"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/hero-upgrades/engraving"><button id="engraving" class="purp"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/hero-upgrades/collections"><button id="collections" class="red"></button></a>
+        </div>
+        <div class="row">
+            <a href="https://www.afkanalytica.com/afk-arena/bossing/wrizz-soren"><button id="wrizz" class="green"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/bossing/twisted_realm"><button id="twisted" class="blue"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/bossing/cursed_realm"><button id="cursed" class="purp"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/bossing/nightmare_corridor"><button id="nightmare" class="red"></button></a>
+        </div>
+        <div class="row">
+            <a href="https://www.afkanalytica.com/afk-arena/account-upgrades/elder-tree"><button id="elder" class="green"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/account-upgrades/beasts"><button id="beasts" class="blue"></button></a>
+        </div>
+        <div class="row">
+            <a href="https://www.afkanalytica.com/afk-arena/miscellaneous/economy"><button id="economy" class="green"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/miscellaneous/stats"><button id="stats" class="blue"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/miscellaneous/codes"><button id="codes" class="purp"></button></a>
+            <a href="https://www.afkanalytica.com/afk-arena/miscellaneous/creators"><button id="creators" class="red"></button></a>
+        </div>
+    </div>
+</body>
+</html>

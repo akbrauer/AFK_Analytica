@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Benchmark Template</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: #131211;
+            color: #f9f9f9;
+            font-size: 1.5em;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        #card {
+            max-width:fit-content;
+            padding: 5px;
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            display: block;
+        }
+
+        .factionImg {
+            height: 46px;
+            width: 46px;
+            padding: 2px;
+        }
+
+        .siImg {
+            height: 50px;
+            width: 50px;
+        }
+
+        .num {
+            height: 25px;
+            width: 25px;
+        }
+
+        .arrow {
+            height: 24px;
+            width: 24px;
+            padding: 13px 5px;
+        }
+
+        #largeImg {
+            height: 25.74px;
+            width: 32.34px;
+            margin: auto;
+        }
+
+        #smallImg {
+            height: 24.42px;
+            width: 16.5px;
+            margin: auto;
+        }
+
+        #wallImg {
+            height: 22.44px;
+            width: 19.14px;
+            margin: auto;
+        }
+
+        .inline {
+            display: inline-block;
+        }
+
+        #portrait {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+
+        #icons {
+            display: flex;
+        }
+        
+        #line1 {
+            display: flex;
+        }
+
+        #line2 {
+            display: flex;
+            text-wrap: wrap;
+        }
+
+        #hero-gear {
+            display: flex;
+        }
+
+        #furn {
+            display: none;
+        }
+
+        #hero-SI {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-image: linear-gradient(to right, #131211, #f9f9f9, #131211);
+        }
+
+        #hr2 {
+            margin-top: 12px;
+        }
+
+        p {
+            font-weight: bold;
+            text-align: center;
+            color: #f9f9f9;
+            line-height: 2px;
+            margin: 15px 0 20px;
+            background-image: linear-gradient(to right, #131211, #f9f9f9, #131211)
+        }
+
+        p span {
+            background-color: #131211;
+            padding: 0 5px;
+        }
+
+        table {
+            text-align: center;
+        }
+
+        td {
+            padding: 5px 5px;
+        }
+
+        .row {
+            display: flex;
+            margin-left: 8px;
+        }
+
+        .dataPoint {
+            margin-right: 20px;
+        }
+
+        .ATK {
+            color: #ea4335;
+        }
+
+        .HP {
+            color: #34a853;
+        }
+
+        .DEF {
+            color: #4285f4;
+        }
+
+        .left {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div id="card">
+    <div id="icons">
+        <div id="hero-portrait"></div>
+        <div id="lines">
+            <div id="line1">
+                <div id="hero-faction"></div>
+                <div id="hero-class"></div>
+                <div id="hero-armor-class"></div>
+            </div>
+            <div id="line2">
+                <div id="hero-gear"></div>
+            </div>
+        </div>
+    </div>
+    <p><span id="hero-name"></span></p>
+    <div id="hero-SI"></div>
+    <div id="SI-line"></div>
+    <div id="furn">
+        <table id="furn-table">
+            <tr id="large">
+                <td id="large-img"></td>
+            </tr>
+            <tr id="small">
+                <td id="small-img"></td>
+            </tr>
+            <tr id="hanging">
+                <td id="wall-img"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="engrave">
+        <div id="benchmarks"></div>
+    </div>
+</div>
+    <script type="text/javascript">
+        let baseURL = "https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/";
+        let sourceJSON = "https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/json/benchmarks/";
+        async function openJSON(){
+            const response = await fetch(sourceJSON + "Mauler/Anasta.json");
+            const data = await response.json();
+            console.log(data);
+            await buildCard(data);
+        };
+        let buildCard = (data) => {
+            let heroName = data.Name;
+            document.getElementById('hero-name').innerText = heroName;
+            let heroPortrait = document.createElement('img');
+            heroPortrait.setAttribute("src", baseURL + "heroes/" + heroName + ".jpg");
+            heroPortrait.setAttribute("id", "portrait");
+            document.getElementById('hero-portrait').appendChild(heroPortrait);
+            let heroFaction = data.Faction;
+            if(heroFaction == "Celestial"){
+                let heroFactionImg = document.createElement('img');
+                heroFactionImg.classList.add("factionImg");
+                heroFactionImg.setAttribute("src", baseURL + "factions/celestial.png");
+                document.getElementById('hero-faction').appendChild(heroFactionImg);
+            } else if (heroFaction == "Hypogean"){
+                let heroFactionImg = document.createElement('img');
+                heroFactionImg.classList.add("factionImg");
+                heroFactionImg.setAttribute("src", baseURL + "factions/hypogean.png");
+                document.getElementById('hero-faction').appendChild(heroFactionImg);
+            } else if (heroFaction == "Lightbearer"){
+                let heroFactionImg = document.createElement('img');
+                heroFactionImg.classList.add("factionImg");
+                heroFactionImg.setAttribute("src", baseURL + "factions/lightbearer.png");
+                document.getElementById('hero-faction').appendChild(heroFactionImg);
+            } else if (heroFaction == "Mauler"){
+                let heroFactionImg = document.createElement('img');
+                heroFactionImg.classList.add("factionImg");
+                heroFactionImg.setAttribute("src", baseURL + "factions/mauler.png");
+                document.getElementById('hero-faction').appendChild(heroFactionImg);
+            } else if (heroFaction == "Wilder"){
+                let heroFactionImg = document.createElement('img');
+                heroFactionImg.classList.add("factionImg");
+                heroFactionImg.setAttribute("src", baseURL + "factions/wilder.png");
+                document.getElementById('hero-faction').appendChild(heroFactionImg);
+            } else if (heroFaction == "Graveborn"){
+                let heroFactionImg = document.createElement('img');
+                heroFactionImg.classList.add("factionImg");
+                heroFactionImg.setAttribute("src", baseURL + "factions/graveborn.png");
+                document.getElementById('hero-faction').appendChild(heroFactionImg);
+            } else if (heroFaction == "Dimensional"){
+                let heroFactionImg = document.createElement('img');
+                heroFactionImg.classList.add("factionImg");
+                heroFactionImg.setAttribute("src", baseURL + "factions/dimensional.png");
+                document.getElementById('hero-faction').appendChild(heroFactionImg);
+            };
+            let heroClass = data.Class;
+            if(heroClass == "Celerity"){
+                let heroClassImg = document.createElement('img');
+                heroClassImg.setAttribute("src", baseURL + "upgrades/stats/cele.png");
+                document.getElementById('hero-class').appendChild(heroClassImg);
+            } else if(heroClass == "Fortitude"){
+                let heroClassImg = document.createElement('img');
+                heroClassImg.setAttribute("src", baseURL + "upgrades/stats/fort.png");
+                document.getElementById('hero-class').appendChild(heroClassImg);
+            } else if(heroClass == "Might"){
+                let heroClassImg = document.createElement('img');
+                heroClassImg.setAttribute("src", baseURL + "upgrades/stats/might.png");
+                document.getElementById('hero-class').appendChild(heroClassImg);
+            } else if(heroClass == "Sorcery"){
+                let heroClassImg = document.createElement('img');
+                heroClassImg.setAttribute("src", baseURL + "upgrades/stats/sorc.png");
+                document.getElementById('hero-class').appendChild(heroClassImg);
+            } else if(heroClass == "Sustenance"){
+                let heroClassImg = document.createElement('img');
+                heroClassImg.setAttribute("src", baseURL + "upgrades/stats/sus.png");
+                document.getElementById('hero-class').appendChild(heroClassImg);
+            };
+            let heroArmorClass = data.Armor;
+            if(heroArmorClass == "STR"){
+                let heroArmorImg = document.createElement('img');
+                heroArmorImg.setAttribute("src", baseURL + "upgrades/stats/str.png");
+                document.getElementById('hero-armor-class').appendChild(heroArmorImg);
+            } else if(heroArmorClass == "AGI"){
+                let heroArmorImg = document.createElement('img');
+                heroArmorImg.setAttribute("src", baseURL + "upgrades/stats/agi.png");
+                document.getElementById('hero-armor-class').appendChild(heroArmorImg);
+            } else if(heroArmorClass == "INT"){
+                let heroArmorImg = document.createElement('img');
+                heroArmorImg.setAttribute("src", baseURL + "upgrades/stats/int.png");
+                document.getElementById('hero-armor-class').appendChild(heroArmorImg);
+            };
+            let heroGear = data.Gear;
+            for(x = 0; x < heroGear.length; x++){
+                let gearEntry = document.createElement('div');
+                gearEntry.setAttribute('id', "gear" + x);
+                gearEntry.style.display = "block";
+                document.getElementById('hero-gear').appendChild(gearEntry);
+                if(heroGear[x] == "WEP"){
+                    let gearWEP = document.createElement('img');
+                    gearWEP.setAttribute('src', baseURL + "upgrades/hero_gear/" + heroArmorClass.toLowerCase() + "Wep.jpg" );
+                    gearEntry.appendChild(gearWEP);
+                } else if(heroGear[x] == "HELM"){
+                    let gearHELM = document.createElement('img');
+                    gearHELM.setAttribute('src', baseURL + "upgrades/hero_gear/" + heroArmorClass.toLowerCase() + "Helm.jpg" );
+                    gearEntry.appendChild(gearHELM);
+                } else if(heroGear[x] == "CHEST"){
+                    let gearCHEST = document.createElement('img');
+                    gearCHEST.setAttribute('src', baseURL + "upgrades/hero_gear/" + heroArmorClass.toLowerCase() + "Chest.jpg" );
+                    gearEntry.appendChild(gearCHEST);
+                } else if(heroGear[x] == "BOOTS"){
+                    let gearBOOTS = document.createElement('img');
+                    gearBOOTS.setAttribute('src', baseURL + "upgrades/hero_gear/" + heroArmorClass.toLowerCase() + "Boots.jpg" );
+                    gearEntry.appendChild(gearBOOTS);
+                };
+            };
+            let heroSI = data.SI;
+            for(x = 0; x < heroSI.length; x++){
+                if(x % 2 == 0){
+                    let siImg = document.createElement('img');
+                    siImg.classList.add("siImg");
+                    if(heroSI[x] == "10"){
+                        siImg.setAttribute("src", baseURL + "upgrades/signature/10.png");
+                        siImg.setAttribute("alt", "+10");
+                    } else if(heroSI[x] == "15"){
+                        siImg.setAttribute("src", baseURL + "upgrades/signature/15.png");
+                        siImg.setAttribute("alt", "+30");
+                    } else if(heroSI[x] == "20"){
+                        siImg.setAttribute("src", baseURL + "upgrades/signature/20.png");
+                        siImg.setAttribute("alt", "+20");
+                    } else if(heroSI[x] == "25"){
+                        siImg.setAttribute("src", baseURL + "upgrades/signature/25.png");
+                        siImg.setAttribute("alt", "+30");
+                    } else if(heroSI[x] == "30"){
+                        siImg.setAttribute("src", baseURL + "upgrades/signature/30.png");
+                        siImg.setAttribute("alt", "+30");
+                    } else if(heroSI[x] == "35"){
+                        siImg.setAttribute("src", baseURL + "upgrades/signature/35.png");
+                        siImg.setAttribute("alt", "+35");
+                    } else if(heroSI[x] == "40"){
+                        siImg.setAttribute("src", baseURL + "upgrades/signature/40.png");
+                        siImg.setAttribute("alt", "+40");
+                    };
+                    if(heroSI[x] !== 0){
+                        document.getElementById('hero-SI').appendChild(siImg);
+                    };
+                } else if (x % 2 !== 0){
+                    if(heroSI[x] == 0){
+                        if(x !== (heroSI.length - 1)){
+                        let siArrow = document.createElement('img');
+                        siArrow.classList.add('arrow');
+                        siArrow.setAttribute("src", baseURL + "upgrades/aRG.png");
+                        document.getElementById('hero-SI').appendChild(siArrow);
+                        };
+                    } else if(heroSI[x] == 3){
+                        let siEntry = document.createElement('img');
+                        siEntry.classList.add("siImg");
+                        siEntry.setAttribute("src", baseURL + "upgrades/furniture/furn3.png");
+                        document.getElementById('hero-SI').appendChild(siEntry);
+                        if(x !== (heroSI.length - 1)){
+                            let siArrow = document.createElement('img');
+                            siArrow.classList.add('arrow');
+                            siArrow.setAttribute("src", baseURL + "upgrades/aRG.png");
+                            document.getElementById('hero-SI').appendChild(siArrow);
+                        };
+                    } else if(heroSI[x] == 9){
+                        let siEntry = document.createElement('img');
+                        siEntry.classList.add("siImg");
+                        siEntry.setAttribute("src", baseURL + "upgrades/furniture/furn9.png");
+                        document.getElementById('hero-SI').appendChild(siEntry);
+                        if(x !== (heroSI.length - 1)){
+                            let siArrow = document.createElement('img');
+                            siArrow.classList.add('arrow');
+                            siArrow.setAttribute("src", baseURL + "upgrades/aRG.png");
+                            document.getElementById('hero-SI').appendChild(siArrow);
+                        };
+                    };
+                };
+            };
+            let heroFurn = data.Furn;
+            let heroPlus = data.Plus;
+            for(x = 0; x < heroFurn.length; x++){
+                let furnEntry = document.createElement('td');
+                if(x <= 0){
+                    furnEntry.innerHTML = heroFurn[x];
+                    furnEntry.style.fontWeight = "bold";
+                    document.getElementById('large').appendChild(furnEntry);
+                } else if(x <= 1 && x>= 1){
+                    let line = document.createElement('hr');
+                    document.getElementById('furn').appendChild(line);
+                    let large = document.createElement('img');
+                    large.setAttribute('src', baseURL + "upgrades/furniture/large.png");
+                    large.setAttribute('id', "largeImg");
+                    large.setAttribute('alt', 'Furniture Large')
+                    document.getElementById('large-img').appendChild(large);
+                    let small = document.createElement('img');
+                    small.setAttribute('src', baseURL + "upgrades/furniture/small.png");
+                    small.setAttribute('id', "smallImg");
+                    small.setAttribute('alt', 'Furniture Small')
+                    document.getElementById('small-img').appendChild(small);
+                    let wall = document.createElement('img');
+                    wall.setAttribute('src', baseURL + "upgrades/furniture/wall.png");
+                    wall.setAttribute('id', "wallImg");
+                    wall.setAttribute('alt', 'Furniture Wall')
+                    document.getElementById('wall-img').appendChild(wall);
+                    document.getElementById('furn').style.display = "block";
+                    furnEntry.innerHTML = heroFurn[x];
+                    document.getElementById('large').appendChild(furnEntry);
+                } else if (x >= 2 && x <= 2){
+                    if(heroFurn[x] == "1"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/1.png");
+                    } else if(heroFurn[x] == "2"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/2.png");
+                    } else if(heroFurn[x] == "3"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/3.png");
+                    };
+                    document.getElementById('large').appendChild(furnEntry);
+                    let furnEntry2 = document.createElement('td');
+                    furnEntry2.classList.add("left");
+                    furnEntry2.innerText = heroPlus[0];
+                    if(heroPlus[0] == "+"){
+                        furnEntry2.style.color = "#ff8080";
+                    } else if (heroPlus[0] == "++"){
+                        furnEntry2.style.color = "#ffcc80";
+                    } else if (heroPlus[0] == "+++"){
+                        furnEntry2.style.color = "#99ff80";
+                    };
+                    document.getElementById('large').appendChild(furnEntry2);
+                } else if (x >= 3 && x <= 3){
+                    furnEntry.innerHTML = heroFurn[x];
+                    furnEntry.style.fontWeight = "bold";
+                    document.getElementById('small').appendChild(furnEntry);
+                } else if (x >= 4 && x <= 4){
+                    furnEntry.innerHTML = heroFurn[x];
+                    document.getElementById('small').appendChild(furnEntry);
+                } else if (x >= 5 && x <= 5){
+                    if(heroFurn[x] == "1"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/1.png");
+                    } else if(heroFurn[x] == "2"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/2.png");
+                    } else if(heroFurn[x] == "3"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/3.png");
+                    };
+                    document.getElementById('small').appendChild(furnEntry);
+                    let furnEntry2 = document.createElement('td');
+                    furnEntry2.classList.add("left");
+                    furnEntry2.innerText = heroPlus[1];
+                    if(heroPlus[1] == "+"){
+                        furnEntry2.style.color = "#ff8080";
+                    } else if (heroPlus[1] == "++"){
+                        furnEntry2.style.color = "#ffcc80";
+                    } else if (heroPlus[1] == "+++"){
+                        furnEntry2.style.color = "#99ff80";
+                    };
+                    document.getElementById('small').appendChild(furnEntry2);
+                } else if(x >= 6 && x <= 6){
+                    furnEntry.innerHTML = heroFurn[x];
+                    furnEntry.style.fontWeight = "bold";
+                    document.getElementById('hanging').appendChild(furnEntry);
+                } else if (x >= 7 && x <= 7){
+                    furnEntry.innerHTML = heroFurn[x];
+                    document.getElementById('hanging').appendChild(furnEntry);
+                } else if (x <= 8){
+                    if(heroFurn[x] == "1"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/1.png");
+                    } else if(heroFurn[x] == "2"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/2.png");
+                    } else if(heroFurn[x] == "3"){
+                        let num = document.createElement('img');
+                        num.classList.add('num');
+                        furnEntry.appendChild(num);
+                        num.setAttribute('src', baseURL + "upgrades/3.png");
+                    };
+                    document.getElementById('hanging').appendChild(furnEntry);
+                    let furnEntry2 = document.createElement('td');
+                    furnEntry2.classList.add("left");
+                    furnEntry2.innerText = heroPlus[2];
+                    if(heroPlus[2] == "+"){
+                        furnEntry2.style.color = "#ff8080";
+                    } else if (heroPlus[2] == "++"){
+                        furnEntry2.style.color = "#ffcc80";
+                    } else if (heroPlus[2] == "+++"){
+                        furnEntry2.style.color = "#99ff80";
+                    };
+                    document.getElementById('hanging').appendChild(furnEntry2);
+                };
+            };
+            let heroEngrave = data.Engrave;
+            for(x = 0; x < heroEngrave.length; x++){
+                let bench = document.createElement('div');
+                bench.classList.add("row");
+                document.getElementById('benchmarks').appendChild(bench);
+                if (x <= 0){
+                    let bench0 = data.Engrave[x];
+                    for(y = 0; y < bench0.length; y++){
+                        if(y < 1){
+                            let benchValue = document.createElement('div');
+                            benchValue.classList.add("dataPoint");
+                            benchValue.style.fontWeight = "bold";
+                            // benchImageReplace(benchValue, bench0[y]);
+                            benchValue.innerHTML = bench0[y];
+                            bench.appendChild(benchValue);
+                        } else if(y >= 1){
+                            let benchStat = document.createElement('div');
+                            benchStat.classList.add("dataPoint");
+                            benchStat.innerHTML = bench0[y];
+                            if(bench0[y] == "ATK%" || bench0[y] == "HP%" || bench0[y] == "DEF%"){
+                                benchStat.classList.add(bench0[y].slice(0, -1));
+                            };
+                            bench.appendChild(benchStat);
+                        };    
+                    };
+                } else if (x <= 1){
+                    let bench1 = data.Engrave[x];
+                    let SILine = document.createElement('hr');
+                    SILine.setAttribute('id', "hr2");
+                    document.getElementById('SI-line').appendChild(SILine);
+                    for(y = 0; y < bench1.length; y++){
+                        if(y < 1){
+                            let benchValue = document.createElement('div');
+                            benchValue.classList.add("dataPoint");
+                            benchValue.style.fontWeight = "bold";
+                            // benchImageReplace(benchValue, bench1[y]);
+                            benchValue.innerHTML = bench1[y];
+                            bench.appendChild(benchValue);
+                        } else if(y >= 1){
+                            let benchStat = document.createElement('div');
+                            benchStat.classList.add("dataPoint");
+                            benchStat.innerHTML = bench1[y];
+                            if(bench1[y] == "ATK%" || bench1[y] == "HP%" || bench1[y] == "DEF%"){
+                                benchStat.classList.add(bench1[y].slice(0, -1));
+                            };
+                            bench.appendChild(benchStat);
+                        };    
+                    };
+                } else if (x <= 2){
+                    let bench2 = data.Engrave[x];
+                    for(y = 0; y < bench2.length; y++){
+                        if(y < 1){
+                            let benchValue = document.createElement('div');
+                            benchValue.classList.add("dataPoint");
+                            benchValue.style.fontWeight = "bold";
+                            // benchImageReplace(benchValue, bench2[y]);
+                            benchValue.innerHTML = bench2[y];
+                            bench.appendChild(benchValue);
+                        } else if(y >= 1){
+                            let benchStat = document.createElement('div');
+                            benchStat.classList.add("dataPoint");
+                            benchStat.innerHTML = bench2[y];
+                            if(bench2[y] == "ATK%" || bench2[y] == "HP%" || bench2[y] == "DEF%"){
+                                benchStat.classList.add(bench2[y].slice(0, -1));
+                            };
+                            bench.appendChild(benchStat);
+                        };    
+                    };
+                } else if (x <= 3){
+                    let bench3 = data.Engrave[x];
+                    for(y = 0; y < bench3.length; y++){
+                        if(y < 1){
+                            let benchValue = document.createElement('div');
+                            benchValue.classList.add("dataPoint");
+                            benchValue.style.fontWeight = "bold";
+                            // benchImageReplace(benchValue, bench3[y]);
+                            benchValue.innerHTML = bench3[y];
+                            bench.appendChild(benchValue);
+                        } else if(y >= 1){
+                            let benchStat = document.createElement('div');
+                            benchStat.classList.add("dataPoint");
+                            benchStat.innerHTML = bench3[y];
+                            if(bench3[y] == "ATK%" || bench3[y] == "HP%" || bench3[y] == "DEF%"){
+                                benchStat.classList.add(bench3[y].slice(0, -1));
+                            };
+                            bench.appendChild(benchStat);
+                        };    
+                    };
+                };
+            };
+        };
+        
+        let benchImageReplace = (benchValue, benchEntry) => {
+            if(benchEntry == "e30"){
+                let benchIcon = document.createElement('img');
+                benchIcon.setAttribute("src", baseURL + "upgrades/engravings/e30.png");
+                benchValue.appendChild(benchIcon);
+            } else if(benchEntry == "e60"){
+                let benchIcon = document.createElement('img');
+                benchIcon.setAttribute("src", baseURL + "upgrades/engravings/e60.png");
+                benchValue.appendChild(benchIcon);
+            } else {
+                benchValue.innerHTML = benchEntry;
+            };
+        }
+
+        openJSON();
+    </script>
+</body>
+</html>
