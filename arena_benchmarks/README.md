@@ -1,0 +1,2 @@
+# AFK Arena Benchmarks
+Part of a larger project to generate a guide on resource investment "benchmarks" for each of the 163 heroes. Component shows a standalone visual guide for each hero's loadout information and recommended investment in the 3 major areas (Engraving, SI & Furniture). Final version was to output a standardized image file to be easily shared in the discord community, however, with the release of AFK Journey, the project was discontinued to focus on the new game.
