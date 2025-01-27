@@ -337,10 +337,14 @@
             selectId.addEventListener('change', () => {
                 for(a = 0; a < posArray.length; a++){
                     document.getElementById(id + "-icon" + (a+1)).classList.add('hidden');
-                    document.getElementById(id + "-art" + (a+1)).classList.add('hidden');
+                    if(document.getElementById(id + "-art" + (a+1))){
+                        document.getElementById(id + "-art" + (a+1)).classList.add('hidden');
+                    };
                     if(selectId.value == posArray[a]){
                         document.getElementById(id + '-icon' + (a+1)).classList.remove('hidden');
-                        document.getElementById(id + '-art' + (a+1)).classList.remove('hidden');
+                        if(document.getElementById(id + '-art' + (a+1))){
+                            document.getElementById(id + '-art' + (a+1)).classList.remove('hidden');
+                        };
                     };
                 };
             });
