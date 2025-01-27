@@ -1,6 +1,6 @@
 {
-    "Boss": "Nightmare",
-    "Player": ["inSeas0n", "L3gacy"],
+    "Boss": "Hydra",
+    "Player": ["오구", "DongGree",  "吉利", "commedesgarcon", "顽童"],
     "Time": ["8.22s", "10.25s"],
     "Teams": [
         [
@@ -45,83 +45,67 @@
                 "Lucilla"
             ],
             [
-                "Blade",
                 "Blade"
             ]
         ],
         [
             [
-                "Scarlet"
+                "Lucilla"
             ],
             [
-                "A.Athalia",
-                "Rosaline",
-                "A.Baden"
+                "Anasta"
             ],
             [
-                "Raine"
+                "Liberta"
             ],
             [
-                "Orthros",
-                "Naroko",
-                "Estrilda"
+                "Naroko"
             ],
             [
-                "Daemia"
+                "Eorin"
             ],
             [
-                "Blade",
-                "Blade"
+                "Seal"
             ]
         ],
         [
             [
-                "Scarlet"
+                "Baden"
             ],
             [
-                "A.Athalia",
-                "Rosaline",
-                "A.Baden"
+                "Trishea"
             ],
             [
-                "Raine"
+                "Lavatune"
             ],
             [
-                "Orthros",
-                "Naroko",
-                "Estrilda"
+                "Emilia"
             ],
             [
-                "Daemia"
+                "Twins"
             ],
             [
-                "Blade",
-                "Blade"
+                "Moth"
             ]
         ],
         [
             [
-                "Scarlet"
+                "A.Athalia"
             ],
             [
-                "A.Athalia",
-                "Rosaline",
-                "A.Baden"
+                "Orthros"
             ],
             [
-                "Raine"
+                "Lyca"
             ],
             [
-                "Orthros",
-                "Naroko",
-                "Estrilda"
+                "Palmer"
             ],
             [
-                "Daemia"
+                "Ivan"
             ],
             [
-                "Blade",
-                "Blade"
+                "Lion"
             ]
         ]
     ],
@@ -162,72 +146,57 @@
             ],
             [
                 "Rowan1"
-            ],
-            [
-                "Blade"
             ]
         ],
+        [
+            [
+                "Rowan1"
+            ],
+            [
+                "Saurus1"
+            ],
+            [
+                "Tasi2"
+            ],
+            [
+                "Orthros2"
+            ],
+            [
+                "Athalia1"
+            ]
+        ], 
         [
             [
                 "Saurus1"
             ],
             [
-                "Oden0",
-                "Tasi0",
+                "Oden2"
+            ],
+            [
+                "Tasi1"
+            ],
+            [
                 "Mehira2"
             ],
             [
-                "Zolrath0"
-            ],
-            [
-                "Zolrath2",
-                "Tasi2",
-                "Tidus1"
-            ],
-            [
-                "Tidus0"
+                "Tasi1"
             ]
         ],
         [
             [
-                "Saurus1"
+                "Saurus2"
             ],
             [
-                "Oden0",
-                "Tasi0",
-                "Mehira2"
+                "Orthros2"
             ],
             [
-                "Zolrath0"
+                "Athalia1"
             ],
             [
-                "Zolrath2",
-                "Tasi2",
-                "Tidus1"
+                "Tasi1"
             ],
             [
-                "Tidus0"
-            ]
-        ],
-        [
-            [
-                "Saurus1"
-            ],
-            [
-                "Oden0",
-                "Tasi0",
-                "Mehira2"
-            ],
-            [
-                "Zolrath0"
-            ],
-            [
-                "Zolrath2",
-                "Tasi2",
-                "Tidus1"
-            ],
-            [
-                "Tidus0"
+                "Rowan1"
             ]
         ]
     ]
