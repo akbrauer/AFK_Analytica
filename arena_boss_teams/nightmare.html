@@ -14,7 +14,6 @@
             margin: 0px 0px;
             background-color: #131211;
             color: #f9f9f9;
-            overflow: hidden;
         }
 
         img {
@@ -184,9 +183,11 @@
     
     <script type="text/javascript">
         let baseURL = "https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/";
-        let sourceJSON = "https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/json/nightmare_corridor/";
+        // let sourceJSON = "https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/json/nightmare_corridor/";
+        let testJSON = "https://raw.githubusercontent.com/akbrauer/AFK_Analytica/main/arena_boss_teams/nightmaretest.json"
         async function openJSON(){
-            const response = await fetch(sourceJSON + "Mirror.json");
+            // const response = await fetch(sourceJSON + "Hydra.json");
+            const response = await fetch(testJSON);
             const data = await response.json();
             console.log(data);
             await buildCard(data);
@@ -209,7 +210,7 @@
                 button.setAttribute('id', 'team' + (t+1) + '-button');
                 button.setAttribute('value', (t+1));
                 button.innerText = "Team " + (t+1);
-                if(t == 0){button.classList.add('bold')};
+                if(t === 0){button.classList.add('bold')};
                 panel.appendChild(button);
                 document.getElementById('team-panels').appendChild(panel);
                 button.addEventListener('click', () => {
