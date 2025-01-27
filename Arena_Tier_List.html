@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena Tier List</title>
+    <style>
+        body {
+            font-size: 16px;
+            margin: 0px 0px;
+            background-color: transparent;
+        }
+
+        .card {
+            width: 14.286%;
+            padding: 0px 2px;
+        }
+
+        #left {
+            padding-left: 0px;
+        }
+
+        #right {
+            padding-right: 0px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+        }
+
+        #ex-tier-logo {
+            width: 9.94%;
+            filter: drop-shadow(1px 1px rgb(0, 0, 0, .25));
+            margin-bottom: 2vw;
+            padding-top: 2vw;
+        }
+
+        #s-tier-logo, #a-tier-logo, #b-tier-logo, #c-tier-logo, #d-tier-logo, #f-tier-logo {
+            width: 5.68%;
+            filter: drop-shadow(1px 1px rgb(0, 0, 0, .25));
+            margin-bottom: 2.5vw;
+            margin-top: 4vw;
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-nowrap {
+            display: flex;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .hero-container {
+            width: 50%;
+        }
+
+        .hero {
+            aspect-ratio: 1;
+            position: relative;
+            margin: 1px;
+            filter: drop-shadow(1px 1px rgb(0, 0, 0, .25));
+        }
+
+        .lig {
+            border: .25vw solid #6eadd7;
+        }
+
+        .mau {
+           border: .25vw solid #f0ab48; 
+        }
+
+        .wild {
+            border: .25vw solid #95dda7;
+        }
+
+        .grav {
+            border: .25vw solid #d4f181;
+        }
+
+        .cel {
+            border: .25vw solid #eaebe9;
+        }
+
+        .hyp {
+            border: .25vw solid #685fb5;
+        }
+
+        .dim {
+            border: .25vw solid #8aacac;
+        }
+
+        .overlay {
+            width: 25%;
+            height: 25%;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            filter: drop-shadow(1px 1px rgb(0, 0, 0, .25));
+        }
+    </style>
+</head>
+<body>
+    <div id="ex-tier-card">
+        <div class="heading">
+            <div id="ex-tier-logo">
+                <img id='ex-logo' src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/tier/EXTier.png" alt="ex tier list logo">
+            </div>
+        </div>
+        <div id="ex-tier" class="flex-nowrap">
+            <div class="card" id="left">
+                <div id="ex-lightbearer" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="ex-mauler" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="ex-wilder" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="ex-graveborn" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="ex-celestial" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="ex-hypogean" class="flex"></div>
+            </div>
+            <div class="card" id="right">
+                <div id="ex-dimensional" class="flex"></div>
+            </div>
+        </div>
+    </div>
+    <div id="s-tier-card">
+        <div class="heading">
+            <div id="s-tier-logo">
+                <img id='s-logo' src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/tier/STier.png" alt="s tier list logo">
+            </div>
+        </div>
+        <div id="s-tier" class="flex-nowrap">
+            <div class="card" id="left">
+                <div id="s-lightbearer" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="s-mauler" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="s-wilder" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="s-graveborn" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="s-celestial" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="s-hypogean" class="flex"></div>
+            </div>
+            <div class="card" id="right">
+                <div id="s-dimensional" class="flex"></div>
+            </div>
+        </div>
+    </div>
+    <div id="a-tier-card">
+        <div class="heading">
+            <div id="a-tier-logo">
+                <img id='a-logo' src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/tier/ATier.png" alt="a tier list logo">
+            </div>
+        </div>
+        <div id="a-tier" class="flex-nowrap">
+            <div class="card" id="left">
+                <div id="a-lightbearer" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="a-mauler" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="a-wilder" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="a-graveborn" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="a-celestial" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="a-hypogean" class="flex"></div>
+            </div>
+            <div class="card" id="right">
+                <div id="a-dimensional" class="flex"></div>
+            </div>
+        </div>
+    </div>
+    <div id="b-tier-card">
+        <div class="heading">
+            <div id="b-tier-logo">
+                <img id='b-logo' src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/tier/BTier.png" alt="b tier list logo">
+            </div>
+        </div>
+        <div id="b-tier" class="flex-nowrap">
+            <div class="card" id="left">
+                <div id="b-lightbearer" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="b-mauler" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="b-wilder" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="b-graveborn" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="b-celestial" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="b-hypogean" class="flex"></div>
+            </div>
+            <div class="card" id="right">
+                <div id="b-dimensional" class="flex"></div>
+            </div>
+        </div>
+    </div>
+    <div id="c-tier-card">
+        <div class="heading">
+            <div id="c-tier-logo">
+                <img id='c-logo' src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/tier/CTier.png" alt="c tier list logo">
+            </div>
+        </div>
+        <div id="c-tier" class="flex-nowrap">
+            <div class="card" id="left">
+                <div id="c-lightbearer" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="c-mauler" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="c-wilder" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="c-graveborn" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="c-celestial" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="c-hypogean" class="flex"></div>
+            </div>
+            <div class="card" id="right">
+                <div id="c-dimensional" class="flex"></div>
+            </div>
+        </div>
+    </div>
+    <div id="d-tier-card">
+        <div class="heading">
+            <div id="d-tier-logo">
+                <img id='d-logo' src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/tier/DTier.png" alt="d tier list logo">
+            </div>
+        </div>
+        <div id="d-tier" class="flex-nowrap">
+            <div class="card" id="left">
+                <div id="d-lightbearer" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="d-mauler" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="d-wilder" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="d-graveborn" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="d-celestial" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="d-hypogean" class="flex"></div>
+            </div>
+            <div class="card" id="right">
+                <div id="d-dimensional" class="flex"></div>
+            </div>
+        </div>
+    </div>
+    <div id="f-tier-card">
+        <div class="heading">
+            <div id="f-tier-logo">
+                <img id='f-logo' src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/tier/FTier.png" alt="f tier list logo">
+            </div>
+        </div>
+        <div id="f-tier" class="flex-nowrap">
+            <div class="card" class="left">
+                <div id="f-lightbearer" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="f-mauler" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="f-wilder" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="f-graveborn" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="f-celestial" class="flex"></div>
+            </div>
+            <div class="card">
+                <div id="f-hypogean" class="flex"></div>
+            </div>
+            <div class="card" class="right">
+                <div id="f-dimensional" class="flex"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        let baseURL = "https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/";
+        let sourceJSON = "https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/json/tier_lists/";
+        async function openJSON(){
+            const response = await fetch(sourceJSON + "tierlistMar24.json");
+            const data = await response.json();
+            console.log(data);
+            await buildList(data);
+        };
+    openJSON();
+    let buildList = (data) => {
+        let heroArray = [];
+        for(let x in data.Hero){
+            heroArray.push(data.Hero[x]);
+        };
+        let rankArray = [];
+        for(let x in data.Hero){
+            rankArray.push(data.Rank[x]);
+        };
+        let factionArray = data.Faction;
+        let counter = {
+            ex: [0,0,0,0,0,0,0],
+            s: [0,0,0,0,0,0,0],
+            a: [0,0,0,0,0,0,0],
+            b: [0,0,0,0,0,0,0],
+            c: [0,0,0,0,0,0,0],
+            d: [0,0,0,0,0,0,0],
+            f: [0,0,0,0,0,0,0],
+        };
+        for(n = 0; n < heroArray.length; n++){
+            let heroContainer = document.createElement('div');
+            heroContainer.classList.add('hero-container');
+            let heroIcon = document.createElement('div');
+            heroIcon.classList.add('hero');
+            let heroImg = document.createElement('img');
+            let heroFaction = document.createElement('img');
+            heroFaction.classList.add('overlay');
+            heroContainer.appendChild(heroIcon);
+            heroIcon.appendChild(heroImg);
+            heroIcon.appendChild(heroFaction);
+            heroImg.setAttribute('src', baseURL + "heroes/" + heroArray[n] + ".jpg");
+            heroImg.setAttribute('alt', heroArray[n]);
+            if(rankArray[n] == "SSS"){
+                appendToFaction("ex", counter.ex, factionArray, heroFaction, heroIcon, heroContainer);
+            } else if (rankArray[n] == "SS"){
+                appendToFaction("s", counter.s, factionArray, heroFaction, heroIcon, heroContainer);
+            } else if (rankArray[n] == "S"){
+                appendToFaction("a", counter.a, factionArray, heroFaction, heroIcon, heroContainer);
+            } else if (rankArray[n] == "A"){
+                heroImg.setAttribute("loading", "lazy");
+                heroFaction.setAttribute("loading", "lazy");
+                appendToFaction("b", counter.b, factionArray, heroFaction, heroIcon, heroContainer);
+            } else if (rankArray[n] == "B"){
+                heroImg.setAttribute("loading", "lazy");
+                heroFaction.setAttribute("loading", "lazy");
+                appendToFaction("c", counter.c, factionArray, heroFaction, heroIcon, heroContainer);
+            } else if (rankArray[n] == "C"){
+                heroImg.setAttribute("loading", "lazy");
+                heroFaction.setAttribute("loading", "lazy");
+                appendToFaction("d", counter.d, factionArray, heroFaction, heroIcon, heroContainer);
+            } else if (rankArray[n] == "D"){
+                heroImg.setAttribute("loading", "lazy");
+                heroFaction.setAttribute("loading", "lazy");
+                appendToFaction("f", counter.f, factionArray, heroFaction, heroIcon, heroContainer);
+            }
+        };
+        centerSingles(counter);
+    };
+
+    let appendToFaction = (tier, subCounter, factionArray, heroFaction, heroIcon, heroContainer) => {
+        if(factionArray[n] == "Lightbearer"){
+            subCounter[0]++;
+            heroFaction.setAttribute('src', baseURL + "factions/lightbearer.png");
+            heroFaction.setAttribute('alt', "lightbearer");
+            heroIcon.classList.add('lig');
+            document.getElementById(tier + '-lightbearer').appendChild(heroContainer);
+        } else if(factionArray[n] == "Mauler"){
+            subCounter[1]++;
+            heroFaction.setAttribute('src', baseURL + "factions/mauler.png");
+            heroFaction.setAttribute('alt', "mauler");
+            heroIcon.classList.add('mau');
+            document.getElementById(tier + '-mauler').appendChild(heroContainer);
+        } else if(factionArray[n] == "Wilder"){
+            subCounter[2]++;
+            heroFaction.setAttribute('src', baseURL + "factions/wilder.png");
+            heroFaction.setAttribute('alt', "wilder");
+            heroIcon.classList.add('wild');
+            document.getElementById(tier + '-wilder').appendChild(heroContainer);
+        } else if(factionArray[n] == "Graveborn"){
+            subCounter[3]++;
+            heroFaction.setAttribute('src', baseURL + "factions/graveborn.png");
+            heroFaction.setAttribute('alt', "graveborn");
+            heroIcon.classList.add('grav');
+            document.getElementById(tier + '-graveborn').appendChild(heroContainer);
+        } else if(factionArray[n] == "Celestial"){
+            subCounter[4]++;
+            heroFaction.setAttribute('src', baseURL + "factions/celestial.png");
+            heroFaction.setAttribute('alt', "celestial");
+            heroIcon.classList.add('cel');
+            document.getElementById(tier + '-celestial').appendChild(heroContainer);
+        } else if(factionArray[n] == "Hypogean"){
+            subCounter[5]++;
+            heroFaction.setAttribute('src', baseURL + "factions/hypogean.png");
+            heroFaction.setAttribute('alt', "hypogean");
+            heroIcon.classList.add('hyp');
+            document.getElementById(tier + '-hypogean').appendChild(heroContainer);
+        } else if(factionArray[n] == "Dimensional"){
+            subCounter[6]++;
+            heroFaction.setAttribute('src', baseURL + "factions/dimensional.png");
+            heroFaction.setAttribute('alt', "dimensional");
+            heroIcon.classList.add('dim');
+            document.getElementById(tier + '-dimensional').appendChild(heroContainer);
+        };
+    };
+
+    let centerSingles = (counter) => {
+        let tierArray = Object.keys(counter);
+        for(t = 0; t < 7; t++){
+            let tier = tierArray[t];
+            if(counter[tier][0] == 1){
+            document.getElementById(tier + '-lightbearer').classList.add('center');
+            };
+            if(counter[tier][1] == 1){
+                document.getElementById(tier + '-mauler').classList.add('center');
+            };
+            if(counter[tier][2] == 1){
+                document.getElementById(tier + '-wilder').classList.add('center');
+            };
+            if(counter[tier][3] == 1){
+                document.getElementById(tier + '-graveborn').classList.add('center');
+            };
+            if(counter[tier][4] == 1){
+                document.getElementById(tier + '-celestial').classList.add('center');
+            };
+            if(counter[tier][5] == 1){
+                document.getElementById(tier + '-hypogean').classList.add('center');
+            };
+            if(counter[tier][6] == 1){
+                document.getElementById(tier + '-dimensional').classList.add('center');
+            };
+        };
+    };
+    </script>
+</body>
+</html>
