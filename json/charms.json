@@ -1,0 +1,1536 @@
+{
+	"charms": {
+		"1": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Haste", "value": "24"},
+				{"stat": "Skill Power", "value": "5"}
+			],
+			"heroes": ["Arden", "Carolina", "Eironn", "Shakir", "Cassadee", "Reinier", "Lucius", "Kruger", "Salazer", "Seth", "Soren", "Marilee", "Alsa", "Lyca"],
+			"imageUrl": "",
+			"setId": "Mystic",
+			"name": "Mystic"
+		},
+		"2": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "HP", "value": "36%"},
+				{"stat": "Skill Power", "value": "5"}
+			],
+			"heroes": ["Arden", "Brutus", "Lumont", "Temesia", "Vala", "Antandra", "Viperian", "Valen", "Hewynn", "Cecia", "Kafra", "Korin", "Walker", "Ludovic", "Odie", "Talene", "Nara", "Sinbad", "Lyca"],
+			"imageUrl": "",
+			"setId": "Insight",
+			"name": "Insight"
+		},
+		"3": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "HP", "value": "36%"},
+				{"stat": "Ultimate Strength", "value": "5"}
+			],
+			"heroes": ["Arden", "Lily May", "Shakir", "Smokey & Meerky", "Temesia", "Antandra", "Bryon", "Valen", "Florabelle", "Granny Dahnie", "Koko", "Damian", "Soren", "Niru"],
+			"imageUrl": "",
+			"setId": "Eagle",
+			"name": "Eagle"
+		},
+		"4": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "HP", "value": "36%"},
+				{"stat": "Phys & Magic DEF", "value": "72%"}
+			],
+			"heroes": ["Arden", "Phraesto", "Temesia", "Antandra", "Viperian", "Valen", "Reinier", "Dionel", "Walker", "Ludovic", "Mikola", "Parisa", "Rhys", "Alsa", "Lyca"],
+			"imageUrl": "",
+			"setId": "Vigorous",
+			"name": "Vigorous"
+		},
+		"5": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "ATK", "value": "21%"},
+				{"stat": "Ultimate Strength", "value": "5"}
+			],
+			"heroes": ["Arden", "Carolina", "Lumont", "Shakir", "Temesia", "Thoran", "Valen", "Ulmus", "Granny Dahnie", "Odie", "Talene", "Lyca"],
+			"imageUrl": "",
+			"setId": "Blast",
+			"name": "Blast"
+		},
+		"6": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Energy on Hit", "value": "70"},
+				{"stat": "Ultimate Strength", "value": "5"}
+			],
+			"heroes": ["Berial", "Brutus", "Carolina", "Dunlingr", "Eironn", "Cecia", "Kafra", "Korin", "Granny Dahnie", "Walker", "Salazer", "Seth"],
+			"imageUrl": "",
+			"setId": "Resolute",
+			"name": "Resolute"
+		},
+		"7": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "HP", "value": "36%"},
+				{"stat": "Energy on Hit", "value": "70"}
+			],
+			"heroes": ["Berial", "Lumont", "Phraesto", "Bryon", "Fay", "Florabelle", "Reinier", "Satrana", "Granny Dahnie", "Atalanta", "Koko", "Scarlita", "Soren", "Niru"],
+			"imageUrl": "",
+			"setId": "Sturdy",
+			"name": "Sturdy"
+		},
+		"8": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "ATK", "value": "21%"},
+				{"stat": "Skill Power", "value": "5"}
+			],
+			"heroes": ["Berial", "Carolina", "Dunlingr", "Bryon", "Fay", "Ulmus", "Lucius", "Seth", "Mikola", "Rhys", "Koko", "Soren"],
+			"imageUrl": "",
+			"setId": "Arcane",
+			"name": "Arcane"
+		},
+		"9": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "ATK", "value": "21%"},
+				{"stat": "Execution", "value": "50"}
+			],
+			"heroes": ["Berial", "Silvina", "Vala", "Igor", "Kruger", "Niru"],
+			"imageUrl": "",
+			"setId": "Reaper",
+			"name": "Reaper"
+		},
+		"10": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "HP", "value": "36%"},
+				{"stat": "ATK", "value": "21%"}
+			],
+			"heroes": ["Berial", "Dunlingr", "Rowan", "Silvina", "Thoran", "Antandra", "Igor", "Viperian", "Reinier", "Hewynn", "Lenya", "Kafra", "Satrana", "Odie", "Mikola", "Nara", "Sinbad"],
+			"imageUrl": "",
+			"setId": "Balanced",
+			"name": "Balanced"
+		},
+		"11": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "HP", "value": "36%"},
+				{"stat": "Haste", "value": "24"}
+			],
+			"heroes": ["Brutus", "Carolina", "Eironn", "Lumont", "Rowan", "Cassadee", "Florabelle", "Satrana", "Mirael", "Kruger", "Parisa", "Sinbad"],
+			"imageUrl": "",
+			"setId": "Cheetah",
+			"name": "Cheetah"
+		},
+		"12": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Phys & Magic DEF", "value": "72%"},
+				{"stat": "Energy on Hit", "value": "70"}
+			],
+			"heroes": ["Brutus", "Silvina", "Lenya", "Kruger", "Salazer", "Niru"],
+			"imageUrl": "",
+			"setId": "Focus",
+			"name": "Focus"
+		},
+		"13": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Phys & Magic DEF", "value": "72%"},
+				{"stat": "Crit Resist", "value": "50%"}
+			],
+			"heroes": ["Brutus", "Lumont", "Phraesto", "Rowan", "Smokey & Meerky", "Igor", "Hewynn", "Lucius", "Kafra", "Mikola", "Talene", "Koko", "Soren"],
+			"imageUrl": "",
+			"setId": "Ironwall",
+			"name": "Ironwall"
+		},
+		"14": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "HP", "value": "36%"},
+				{"stat": "ATK SPD", "value": "36%"}
+			],
+			"heroes": ["Dunlingr", "Thoran", "Ulmus", "Dionel", "Cecia", "Mirael", "Korin", "Ludovic", "Parisa", "Rhys", "Marilee"],
+			"imageUrl": "",
+			"setId": "Glory",
+			"name": "Glory"
+		},
+		"15": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "ATK", "value": "21%"},
+				{"stat": "Crit", "value": "40%"}
+			],
+			"heroes": ["Dunlingr", "Eironn", "Lily May", "Bryon", "Igor", "Dionel", "Salazer", "Damian"],
+			"imageUrl": "",
+			"setId": "Titanic",
+			"name": "Titanic"
+		},
+		"16": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Haste", "value": "24"},
+				{"stat": "Energy on Hit", "value": "70"}
+			],
+			"heroes": ["Eironn", "Nara"],
+			"imageUrl": "",
+			"setId": "Energy",
+			"name": "Energy"
+		},
+		"17": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Ultimate Strength", "value": "5"},
+				{"stat": "Skill Power", "value": "5"}
+			],
+			"heroes": ["Lily May", "Phraesto", "Rowan", "Silvina", "Smokey & Meerky", "Thoran", "Antandra", "Igor", "Viperian", "Cassadee", "Florabelle", "Reinier", "Hewynn", "Dionel", "Lenya", "Satrana", "Mirael", "Kruger", "Granny Dahnie", "Atalanta", "Mikola", "Parisa", "Rhys", "Koko", "Damian", "Scarlita", "Marilee", "Sinbad"],
+			"imageUrl": "",
+			"setId": "Sorcery",
+			"name": "Sorcery"
+		},
+		"18": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "ATK", "value": "21%"},
+				{"stat": "ATK SPD", "value": "36%"}
+			],
+			"heroes": ["Lily May", "Silvina", "Florabelle", "Dionel", "Cecia", "Odie", "Damian", "Sinbad"],
+			"imageUrl": "",
+			"setId": "Gale",
+			"name": "Gale"
+		},
+		"19": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Haste", "value": "24"},
+				{"stat": "Crit", "value": "40%"}
+			],
+			"heroes": ["Lily May", "Vala", "Valen", "Fay", "Lenya", "Mirael"],
+			"imageUrl": "",
+			"setId": "Combat",
+			"name": "Combat"
+		},
+		"20": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "HP", "value": "36%"},
+				{"stat": "Vitality", "value": "24"}
+			],
+			"heroes": ["Phraesto", "Thoran", "Viperian", "Ulmus", "Salazer"],
+			"imageUrl": "",
+			"setId": "Bear",
+			"name": "Bear"
+		},
+		"21": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Healing", "value": "22"},
+				{"stat": "Ultimate Strength", "value": "5"}
+			],
+			"heroes": ["Rowan", "Fay", "Lucius", "Ludovic", "Damian"],
+			"imageUrl": "",
+			"setId": "Wizard",
+			"name": "Wizard"
+		},
+		"22": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Haste", "value": "24"},
+				{"stat": "Crit DMG Boost", "value": "50"}
+			],
+			"heroes": ["Shakir", "Atalanta", "Marilee", "Alsa"],
+			"imageUrl": "",
+			"setId": "Overloaded",
+			"name": "Overloaded"
+		},
+		"23": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "ATK", "value": "21%"},
+				{"stat": "Life Drain", "value": "24%"}
+			],
+			"heroes": ["Shakir", "Vala", "Cecia", "Kafra", "Korin", "Walker", "Odie", "Scarlita", "Alsa"],
+			"imageUrl": "",
+			"setId": "Bloodlust",
+			"name": "Bloodlust"
+		},
+		"24": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Healing", "value": "22"},
+				{"stat": "Skill Power", "value": "5"}
+			],
+			"heroes": ["Smokey & Meerky", "Fay", "Hewynn", "Lucius", "Niru"],
+			"imageUrl": "",
+			"setId": "Recovering",
+			"name": "Recovering"
+		},
+		"25": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Healing", "value": "22"},
+				{"stat": "Haste", "value": "24"}
+			],
+			"heroes": ["Smokey & Meerky", "Ulmus", "Korin", "Ludovic", "Talene", "Scarlita"],
+			"imageUrl": "",
+			"setId": "Healer",
+			"name": "Healer"
+		},
+		"26": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Crit", "value": "40%"},
+				{"stat": "ATK SPD", "value": "36%"}
+			],
+			"heroes": ["Temesia", "Bryon", "Cassadee", "Seth", "Lyca"],
+			"imageUrl": "",
+			"setId": "Ruthless",
+			"name": "Ruthless"
+		},
+		"27": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Execution", "value": "50"},
+				{"stat": "Ultimate Strength", "value": "5"}
+			],
+			"heroes": ["Vala", "Talene", "Nara", "Scarlita", "Alsa"],
+			"imageUrl": "",
+			"setId": "Destructive",
+			"name": "Destructive"
+		},
+		"28": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "ATK", "value": "21%"},
+				{"stat": "Haste", "value": "24"}
+			],
+			"heroes": ["Cassadee", "Mirael", "Atalanta", "Seth", "Marilee"],
+			"imageUrl": "",
+			"setId": "Acute",
+			"name": "Acute"
+		},
+		"29": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Crit", "value": "40%"},
+				{"stat": "Crit DMG Boost", "value": "50"}
+			],
+			"heroes": ["Lenya", "Satrana", "Walker", "Atalanta", "Rhys"],
+			"imageUrl": "",
+			"setId": "Butcher",
+			"name": "Butcher"
+		},
+		"30": {
+			"basicStats": {
+				"mage": [
+						{"stat": "HP", "value": "18.2%"},
+						{"stat": "ATK", "value": "20.8%"},
+						{"stat": "Phys & Magic DEF", "value": "13.3%"},
+						{"stat": "Haste", "value": "1.7"}
+					],
+				"support": [
+					{"stat": "HP", "value": "20.6%"},
+					{"stat": "ATK", "value": "17.6%"},
+					{"stat": "Phys & Magic DEF", "value": "22.1%"},
+					{"stat": "Healing", "value": "2"}
+				],
+				"rogue": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "21%"},
+					{"stat": "Phys & Magic DEF", "value": "20.2%"},
+					{"stat": "Crit", "value": "3.3%"}
+				],
+				"marksman": [
+					{"stat": "HP", "value": "18.7%"},
+					{"stat": "ATK", "value": "20.1%"},
+					{"stat": "Phys & Magic DEF", "value": "19.9%"},
+					{"stat": "ATK SPD", "value": "2%"}
+				],
+				"warrior": [
+					{"stat": "HP", "value": "17.2%"},
+					{"stat": "ATK", "value": "19.7%"},
+					{"stat": "Phys & Magic DEF", "value": "24.8%"},
+					{"stat": "Ranged DEF", "value": "3"}
+				],
+				"tank": [
+					{"stat": "HP", "value": "21.5%"},
+					{"stat": "ATK", "value": "13.6%"},
+					{"stat": "Phys & Magic DEF", "value": "26%"},
+					{"stat": "Crit Resist", "value": "3%"}
+				]
+			},
+			"bonusStats": [
+				{"stat": "Haste", "value": "24"},
+				{"stat": "ATK SPD", "value": "36%"}
+			],
+			"heroes": ["Parisa", "Nara"],
+			"imageUrl": "",
+			"setId": "Swift",
+			"name": "Swift"
+		}
+	},
+	"setBonus": {
+		"1": {
+			"bonus": "Increases a target's damage taken by 16% for 6s. And grants 30% ATK boost for 6s when inflicting control effects on that target. Unstackable.",
+			"quality": "Mythic",
+			"heroes": ["Carolina", "Arden"]
+		},
+		"2": {
+			"bonus": "Restores 30 energy per second in battle. Grants 25% damage bonus and increases Energy recovered per second to 40 for 8s after casting ultimate.",
+			"quality": "Mythic",
+			"heroes": ["Alsa", "Cassadee", "Parisa", "Satrana", "Mirael"]
+		},
+		"3": {
+			"bonus": "Grants 16% DMG reduction and 16 energy on hit for 45s to the ally placed 1 tile in front of the hero when the battle starts. The hero also gains a 350% ATK% shield for the rest of the battle.",
+			"quality": "Mythic",
+			"heroes": ["Hewynn", "Smokey & Meerky", "Damian", "Koko"]
+		},
+		"4": {
+			"bonus": "Increases a target's damage taken by 12% for 6s after the hero deals damage to the target. Unstackable. At 20s and 50s into a battle, the damage taken increase rises to 15% and 18%, respectively.",
+			"quality": "Mythic",
+			"heroes": ["Lily May", "Thoran", "Ulmus"]
+		},
+		"5": {
+			"bonus": "Dispels most debuffs on the hero and grants them 80 Haste for 6s when their HP drops below 35% for the first time. Grants the hero an extra 60 Life Drain while this effect is active.",
+			"quality": "Mythic",
+			"heroes": ["Eironn", "Vala", "Silvina", "Soren"]
+		},
+		"6": {
+			"bonus": "Increases Phys and Magic DEF by 24% for each enemy within 2 tiles. Also increases Vitality by 35, plus an extra 5 vitality for each enemy within 2 tiles.",
+			"quality": "Mythic",
+			"heroes": ["Granny Dahnie", "Lumont", "Lucius"]
+		},
+		"7": {
+			"bonus": "Increases all damage except normal attack damage by 40% for 60s. Grants the hero 35 crit for all non-normal attacks.",
+			"quality": "Mythic",
+			"heroes": ["Talene", "Viperian"]
+		},
+		"8": {
+			"bonus": "Increases Crit by 100 for the next 3 hits and restores 140% HP per second over the next 6s after the hero assists or defeats an enemy, excluding summons. Grants the hero control immunity and a20% ATK boost while this effect is active.",
+			"quality": "Mythic",
+			"heroes": ["Shakir", "Lenya", "Seth"]
+		},
+		"9": {
+			"bonus": "Increases damage by 1.5% and Phys & Magic DEF by 5% for every 3s the hero remains in the battle. Increases damage by 9% and Phys & Magic DEF by 30% when assisting or defeating a non-summoned enemy. The total increase from both effects is capped at 18% for damage and 60% for Phys & Magic DEF. When the limit is reached grants the hero an extra 25 Haste for the rest of the battle.",
+			"quality": "Mythic",
+			"heroes": ["Scarlita", "Florabelle", "Odie", "Kruger", "Korin"]
+		},
+		"10": {
+			"bonus": "Grants 30% ATK boost for 45s to the ally placed 1 tile behind the hero when battle starts. When this ally assist or defeats an enemy other than a summon, their ATK is increased by an extra 6%, and the duration of the buff is extended by 10s.",
+			"quality": "Mythic",
+			"heroes": ["Reinier", "Ludovic", "Niru"]
+		},
+		"11": {
+			"bonus": "Dispels most debuffs and makes the hero untargetable for 3s when HP drops below 35% for the first time. Grants the hero a 550% shield when the effect ends. The shield lasts for 6s, during which the hero's Life Drain is also increased by 20.",
+			"quality": "Mythic",
+			"heroes": ["Dionel"]
+		},
+		"12": {
+			"bonus": "Reduces damage taken by 25% and increases their energy on hit by 30 in the first 15s of battle.",
+			"quality": "Mythic",
+			"heroes": ["Phraesto", "Antandra"]
+		},
+		"13": {
+			"bonus": "Restores 60 energy per second until the hero reaches full Energy for the first time. Upon reaching full Energy for the first time, dispels control effects, grants control immunity for6s, and 25% ATK for 6s.",
+			"quality": "Mythic",
+			"heroes": ["Mikola", "Rowan", "Fay"]
+		},
+		"14": {
+			"bonus": "Deals an extra 240% damage when the hero hits a target. This effect can be triggered once per enemy every 6s. This damage is increased to 360% for targets with HP below 35%.",
+			"quality": "Mythic",
+			"heroes": ["Berial", "Temesia", "Marilee", "Walker", "Salazer", "Atalanta"]
+		},
+		"15": {
+			"bonus": "Increases ATK by 30% for 8s when the hero is displaced by their own skills. Deals 280% damage to adjacent enemies when displacement ends.",
+			"quality": "Mythic",
+			"heroes": ["Igor", "Valen", "Kafra"]
+		},
+		"16": {
+			"bonus": "Increases damage dealt by 20% and grants 25 energy when attacking an enemy for each stat debuff inflicted on the enemy by different caster.",
+			"quality": "Mythic",
+			"heroes": ["Cecia", "Lyca"]
+		},
+		"17": {
+			"bonus": "Emits a shockwave every 5s, and reduces Haste by 30 for the enemies within 1 tile for 5s. Gains 15 energy for each enemy affected by this effect.",
+			"quality": "Mythic",
+			"heroes": ["Brutus"]
+		},
+		"18": {
+			"bonus": "Increases a target's damage taken by 25% for 8s and reduces target's Vitality for 80 after dealing damage to that target 2 times. This effect can be triggered once every 10s.",
+			"quality": "Mythic",
+			"heroes": ["Rhys", "Bryon"]
+		}
+	}
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Homepage</title>
+    <style>
+        body {
+            background-color: #131211;
+            margin: 0px 0px;
+            text-align: center;
+            color: #f9f9f9;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        a {
+            color: #f9f9f9;
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 1.8vw;
+            font-weight: bold;
+            margin: 0px;
+        }
+
+        .yellow {
+            color: #ffce10;
+        }
+        img {
+            width: 15vw;
+        }
+
+        .article {
+            width: 31%;
+        }
+
+        .articleCard {
+            width: 100%;
+        }
+
+        button {
+            background-color: transparent;
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: contain;
+            width: 18.9vw;
+            height: 19.86vw;
+            /* @4-wide width: 23.25vw;
+            height: 24.86vw;  */
+            margin: 0 0.25vw;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:active {
+            transform: translate(2.5%, 2.5%);
+        }
+
+        .row {
+            margin: 0.75vw 0px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .half {
+            width: 9.45vw;
+            height: 9.93vw;
+            margin: 0 0.125vw;
+        }
+
+         .buttoncard {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/TierlistBottom.png");
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: contain;
+        }
+
+        #articleRow1 {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #authors {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0px;
+        }
+
+        #season, #legacy {
+            width: 12.5%;
+            padding: 0px 5px;
+        }
+
+        .author {
+            width: 100%;
+        }
+        #tierlist {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Journey_Tierlist_BTN.png");
+        } #dreamrealm {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Dream_Realm_BTN.png");
+         } #beginners {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Beginners_BTN.png");
+        } #ATEK {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/ATEK_BTN.png");
+        } #battledrill {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Battle_Drill_BTN.png");
+        } #creators {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Creators_BTN.png");
+        } #codes {
+            background-image: url("https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Codes_BTN.png");
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/icons/logos/afkjourney.png" alt="AFK Journey">
+    </div>
+    <div id="journey-nav">
+        <div class="row">
+            <div class="buttoncard">
+            <a href="https://www.afkanalytica.com/afk-journey/dream-realm"><button id="dreamrealm"></button></a></div>
+            <div class="buttoncard">
+            <a href="https://www.afkanalytica.com/afk-journey/beginners-guide"><button id="beginners"></button></a></div>
+            <div class="buttoncard">
+            <a href="https://www.afkanalytica.com/afk-journey/tier-list"><button id="tierlist"></button></a></div>
+            <div class="buttoncard">
+            <a href="https://atek.afkanalytica.com/"><button id="ATEK"></button></a></div>
+            <div class="buttoncard">
+                <a href="https://www.afkanalytica.com/afk-journey/battle-drill"><button id="battledrill"></button></a></div>
+        </div>
+        <div class="row">
+            <div class="buttoncard">
+            <a href="https://www.afkanalytica.com/afk-journey/misc/creators"><button id="creators" class="half"></button></a></div>
+            <div class="buttoncard">
+            <a href="https://www.afkanalytica.com/afk-journey/misc/codes"><button id="codes" class="half"></button></a></div>
+        </div>
+    </div>
+    <div id="articles">
+        <div id="articleRow1">
+            <div class="article">
+                <a href="https://www.afkanalytica.com/afk-journey/battle-drill/battle-drill-season-1"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/BDS1.png" alt="Battle Drill Song of Strife" class="articleCard"></a>
+            </div>
+            <div class="article">
+                <a href="https://www.afkanalytica.com/afk-journey/mechanics/battle"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Battle.png" alt="Battle Mechanics" class="articleCard"></a>
+            </div>
+            <div class="article">
+                <a href="https://www.afkanalytica.com/afk-journey/mechanics/artifacts"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Artifacts.png" alt="Artifacts" class="articleCard"></a>
+            </div>
+        </div>
+    </div>
+    <div id="authors">
+        <div id="season">
+            <a href="https://www.afkanalytica.com/to-do-list-l3gacy-seas0n">
+                <img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/Seas0n_Portrait.png" alt="inSeas0n Portrait" class="author">
+                <p><part class="yellow">in</part>Seas0n</p>
+            </a>
+        </div>
+        <div id="legacy">
+            <a href="https://www.afkanalytica.com/to-do-list-l3gacy-seas0n">
+                <img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/nav/L3gacy_Portrait.png" alt="L3gacy Portrait" class="author">
+                <p><part class="yellow">L3</part>gacy</p>
+            </a>
+        </div>
+    </div>
+    <div id="todo"><a href="https://www.afkanalytica.com/to-do-list-l3gacy-seas0n"><p><part class="yellow">Projects </part><u>In-Development</u></p></a></div>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner's Guide</title>
+    <style>
+        body {
+            background-color: #131211;
+            color: #131211;
+        }
+        #cards {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 1.5em;
+            justify-content: center;
+        }
+
+        #line1, #line2 {
+            display: flex;
+        }
+
+        .armorClass {
+            width: fit-content;
+            border: 1px solid;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 0px;
+            color: #f9f9f9;
+        }
+
+        .slot {
+            display: flex;
+        }
+
+        .green {
+            background-color: #34a853;
+        }.yellow {
+            background-color: #fbbc04;
+        }.orange {
+            background-color: #ff6d01;
+        }.red{
+            background-color: #ea4335;
+        }
+
+        .name {
+            margin: auto auto;
+            padding: 0px 4px;
+        }
+
+        img {
+            width: 37.5px;
+            aspect-ratio: 0.94667;
+            display: block;
+            padding: 0px 4px;
+            background-color: #131211;
+        }
+    </style>
+</head>
+<body>
+    <div id="cards">
+        <div id="line1">
+            <div class="armorClass" id="marksman">
+                <div class="title">
+                    <h3>Marksman</h3>
+                </div>
+                <div class="equipment">
+                    <div class="slot green">
+                            <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/marksman_weapon.png" alt="Marksman Weapon"></div>
+                            <div class="name">Weapon</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/marksman_arm.png" alt="Marksman Gloves"></div>
+                        <div class="name">Gloves</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/marksman_ornament.png" alt="Marksman Accessory"></div>
+                        <div class="name">Accessory</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/marksman_leg.png" alt="Marksman Boots"></div>
+                        <div class="name">Boots</div>
+                    </div>
+                    <div class="slot orange">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/marksman_head.png" alt="Marksman Helm"></div>
+                        <div class="name">Helm</div>
+                    </div>
+                    <div class="slot red">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/marksman_body.png" alt="Marksman Chest"></div>
+                        <div class="name">Chest</div>
+                    </div>
+                </div>
+            </div>
+            <div class="armorClass" id="mage">
+                <div class="title">
+                    <h3>Mage</h3>
+                </div>
+                <div class="equipment">
+                    <div class="slot green">
+                            <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/mage_weapon.png" alt="Mage Weapon"></div>
+                            <div class="name">Weapon</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/mage_arm.png" alt="Mage Gloves"></div>
+                        <div class="name">Gloves</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/mage_leg.png" alt="Mage Boots"></div>
+                        <div class="name">Boots</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/mage_ornament.png" alt="Mage Accessory"></div>
+                        <div class="name">Accessory</div>
+                    </div>
+                    <div class="slot orange">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/mage_head.png" alt="Mage Helm"></div>
+                        <div class="name">Helm</div>
+                    </div>
+                    <div class="slot red">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/mage_body.png" alt="Mage Chest"></div>
+                        <div class="name">Chest</div>
+                    </div>
+                </div>
+            </div>
+            <div class="armorClass" id="Rogue">
+                <div class="title">
+                    <h3>Rogue</h3>
+                </div>
+                <div class="equipment">
+                    <div class="slot green">
+                            <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/rogue_ornament.png" alt="Rogue Accessory"></div>
+                            <div class="name">Accessory</div>
+                    </div>
+                    <div class="slot green">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/rogue_weapon.png" alt="Rogue Weapon"></div>
+                        <div class="name">Weapon</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/rogue_arm.png" alt="Rogue Gloves"></div>
+                        <div class="name">Gloves</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/rogue_leg.png" alt="Rogue Boots"></div>
+                        <div class="name">Boots</div>
+                    </div>
+                    <div class="slot orange">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/rogue_body.png" alt="Rogue Chest"></div>
+                        <div class="name">Chest</div>
+                    </div>
+                    <div class="slot red">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/rogue_head.png" alt="Rogue Helm"></div>
+                        <div class="name">Helm</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="line2">
+            <div class="armorClass" id="Support">
+                <div class="title">
+                    <h3>Support</h3>
+                </div>
+                <div class="equipment">
+                    <div class="slot green">
+                            <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/support_leg.png" alt="Support Boots"></div>
+                            <div class="name">Boots</div>
+                    </div>
+                    <div class="slot green">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/support_body.png" alt="Support Chest"></div>
+                        <div class="name">Chest</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/support_ornament.png" alt="Support Accessory"></div>
+                        <div class="name">Accessory</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/support_head.png" alt="Support Helm"></div>
+                        <div class="name">Helm</div>
+                    </div>
+                    <div class="slot orange">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/support_arm.png" alt="Support Gloves"></div>
+                        <div class="name">Gloves</div>
+                    </div>
+                    <div class="slot red">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/support_weapon.png" alt="Support Weapon"></div>
+                        <div class="name">Weapon</div>
+                    </div>
+                </div>
+            </div>
+            <div class="armorClass" id="Tank">
+                <div class="title">
+                    <h3>Tank</h3>
+                </div>
+                <div class="equipment">
+                    <div class="slot green">
+                            <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/tank_body.png" alt="Tank Chest"></div>
+                            <div class="name">Chest</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/tank_head.png" alt="Tank Helm"></div>
+                        <div class="name">Helm</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/tank_arm.png" alt="Tank Gloves"></div>
+                        <div class="name">Gloves</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/tank_leg.png" alt="Tank Boots"></div>
+                        <div class="name">Boots</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/tank_ornament.png" alt="Tank Accessory"></div>
+                        <div class="name">Accessory</div>
+                    </div>
+                    <div class="slot red">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/tank_weapon.png" alt="Tank Weapon"></div>
+                        <div class="name">Weapon</div>
+                    </div>
+                </div>
+            </div>
+            <div class="armorClass" id="Warrior">
+                <div class="title">
+                    <h3>Warrior</h3>
+                </div>
+                <div class="equipment">
+                    <div class="slot green">
+                            <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/warrior_body.png" alt="Warrior Chest"></div>
+                            <div class="name">Chest</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/warrior_head.png" alt="Warrior Helm"></div>
+                        <div class="name">Helm</div>
+                    </div>
+                    <div class="slot yellow">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/warrior_leg.png" alt="Warrior Boots"></div>
+                        <div class="name">Boots</div>
+                    </div>
+                    <div class="slot orange">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/warrior_arm.png" alt="Warrior Gloves"></div>
+                        <div class="name">Gloves</div>
+                    </div>
+                    <div class="slot orange">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/warrior_ornament.png" alt="Warrior Accessory"></div>
+                        <div class="name">Accessory</div>
+                    </div>
+                    <div class="slot red">
+                        <div id="images"><img src="https://raw.githubusercontent.com/inSeas0n/AFK-Analytica/master/journey_icons/gear/warrior_weapon.png" alt="Warrior Weapon"></div>
+                        <div class="name">Weapon</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
